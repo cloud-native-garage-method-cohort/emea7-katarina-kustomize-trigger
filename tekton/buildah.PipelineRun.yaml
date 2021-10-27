@@ -8,9 +8,9 @@ spec:
     - name: app-name
       value: express-sample-app
     - name: image-repo
-      value: quay.io/ophelia_huang/ophelia-kat-express
+      value: https://quay.io/repository/kcimesa/express-sample-app
     - name: source-repo
-      value: https://github.com/cloud-native-garage-method-cohort/ophelia-katarina-assignment.git
+      value: https://github.com/cloud-native-garage-method-cohort/emea7-katarina-kustomize-trigger
   pipelineRef:
     name: buildah
   workspaces:
