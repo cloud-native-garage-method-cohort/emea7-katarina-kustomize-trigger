@@ -6,8 +6,8 @@ resources:
 - route.yaml
 images:
 - name: quay.io/upslopeio/express-sample-app
-  newName: quay.io/ophelia_huang/ophelia-kat-express
-  newTag: 0a9915105dab249d41c49d95e58a1c6ba1136cf3f1dfbcb5889bed818cee936f
+  newName: quay.io/kcimesa/express-sample-app
+  newTag: 3d186919cd1579669d0985fd7ef3377ed50b4052
 commonLabels:
   app.kubernetes.io/instance: express-sample-app
   app.kubernetes.io/name: express-sample-app
