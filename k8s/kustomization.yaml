@@ -4,7 +4,6 @@ resources:
 - deployment.yaml
 - service.yaml
 - route.yaml
-- webhook-receiver.EventListener.yaml
 images:
 - name: quay.io/upslopeio/express-sample-app
   newName: quay.io/kcimesa/express-sample-app
