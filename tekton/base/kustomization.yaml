@@ -8,3 +8,6 @@ resources:
 - create-configuration.Task.yaml
 - deploy.Task.yaml
 - webhook-receiver.EventListener.yaml
+- save-configuration.Task.yaml
+- production-repository.ConfigMap.yaml
+- git-credentials.Secret.yaml
